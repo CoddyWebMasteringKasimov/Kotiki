@@ -1,0 +1,188 @@
+body {
+  padding:0;
+  margin:0;
+  font-family: 'Lato', sans-serif;
+  color: 000;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Pacifico';
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 35px;
+  font-family: 'Pacifico', sans-serif;
+  color: #000
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  display: block;
+  padding:0px;
+}
+
+.container {
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.offer {
+  background: url('../img/fon.jpg') no-repeat center top / cover;
+  height: 708px;
+  color: #fff;
+  text-align: center;
+}
+
+header a {
+  color: #000;
+}
+
+.menu {
+  display: flex; /*Выравниваем элементы в 1 линию*/
+  gap: 38px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whatsapp {
+  margin-left: auto;
+}
+
+.logo {
+  margin-right: 174px;
+}
+
+.offer h1 {
+  padding: 90px 0 10px 0;
+}
+
+.offer p {
+  font-size: 35px;
+  margin-bottom: 70px;
+}
+
+.btn {
+  background: #CE68B0;
+  color: #fff;
+  border-radius: 20px;
+  padding: 23px 111px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  transition:all 0.5s ease;
+}
+
+.btn:hover {
+  background: #00E0FF;
+}
+
+.about {
+  background: #CE68B0;
+  height: 400px;
+}
+
+.about_item {
+  display: flex;
+  color: #fff;
+}
+
+.about_item img {
+  border-right: 4px solid #fff;
+  margin-right: 30px;
+}
+
+
+.text1 h2 {
+  text-align: left;
+  margin: 80px 0 30px 0;
+}
+
+.uznai_item {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec1 {
+  text-align: center;
+}
+
+.milashki h2 {
+  color: #00E0FF;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.milashki_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mi img {
+  margin-bottom: 20px;;
+}
+
+.mi {
+  width: 410px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  background: #161616;
+  height: 83px;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu_footer {
+  display: flex;
+  gap: 38px;
+}
+
+.footer_align {
+  display: flex;
+  justify-content: center;
+}
+
